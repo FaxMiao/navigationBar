@@ -1,0 +1,10 @@
+<!-- 自定义顶部栏 -->
+<view class="nav-bar" style="height:{{navBarHeight}}px;">
+    <input class="search" placeholder="输入关键词！" style="height:{{menuHeight}}px; min-height:{{menuHeight}}px; line-height:{menuHeight}}px; left:{{menuRight}}px; bottom:{{menuBotton}}px;"></input>
+</view>
+
+<!-- 
+    内容区域：
+    自定义顶部栏用的fixed定位，会遮盖到下面内容，注意设置好间距
+-->
+<view class="content" style="margin-top:{{navBarHeight}}px;"></view>

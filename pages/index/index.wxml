@@ -1,0 +1,2 @@
+<!--pages/index/index.wxml-->
+<navigation-bar default-data="{{defaultData}}"></navigation-bar>

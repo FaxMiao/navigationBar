@@ -1,0 +1,2 @@
+.nav-bar{ position: fixed; width: 100%; top: 0; color: #fff; background: #000;}
+.nav-bar .search{ width: 60%; color: #333; font-size: 14px; background: #fff; position: absolute; border-radius: 50px; background: #ddd; padding-left: 14px;}

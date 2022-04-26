@@ -8,8 +8,8 @@ App({
         const menuButtonInfo = wx.getMenuButtonBoundingClientRect();
         console.log(systemInfo)
         console.log(menuButtonInfo)
-        // 导航栏高度 = 状态栏到胶囊的间距（胶囊距上距离-状态栏高度） * 2 + 胶囊高度 + 状态栏高度
-        that.globalData.navBarHeight = (menuButtonInfo.top - systemInfo.statusBarHeight) * 2 + menuButtonInfo.height + systemInfo.statusBarHeight;
+        // 导航栏高度 = 状态栏高度 + 44(所有机型都适用)
+        that.globalData.navBarHeight = systemInfo.statusBarHeight + 44;
         that.globalData.menuRight = systemInfo.screenWidth - menuButtonInfo.right;
         that.globalData.menuBotton = menuButtonInfo.top - systemInfo.statusBarHeight;
         that.globalData.menuHeight = menuButtonInfo.height;

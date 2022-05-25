@@ -7,19 +7,19 @@ Component({
             value: {
                 title: "我是默认标题"
             },
-            observer: function(newVal, oldVal) {}
+            observer: function (newVal, oldVal) {}
         }
     },
     data: {
         navBarHeight: app.globalData.navBarHeight,
         menuRight: app.globalData.menuRight,
-        menuBotton: app.globalData.menuBotton,
+        menuTop: app.globalData.menuTop,
         menuHeight: app.globalData.menuHeight,
     },
-    attached: function() {
+    attached: function () {
 
     },
     methods: {
-        
+
     }
 })

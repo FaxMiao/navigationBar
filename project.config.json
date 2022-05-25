@@ -11,7 +11,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.2.4",
+	"libVersion": "2.11.2",
 	"appid": "wx07690b3a25c35f3b",
 	"projectname": "%E5%8D%8E%E7%BE%8E%E6%95%B4%E5%91%97",
 	"isGameTourist": false,
@@ -37,27 +37,7 @@
 		"miniprogram": {
 			"current": 2,
 			"list": [
-				{
-					"id": 0,
-					"name": "核销",
-					"pathName": "pages/login/login",
-					"query": "scene=1712",
-					"scene": "1011"
-				},
-				{
-					"id": 1,
-					"name": "二维码",
-					"pathName": "pages/login/login",
-					"query": "scene=897414",
-					"scene": "1011"
-				},
-				{
-					"id": 2,
-					"name": "卡券二维码",
-					"pathName": "pages/login/login",
-					"query": "scene=2615",
-					"scene": "1011"
-				}
+				
 			]
 		}
 	}

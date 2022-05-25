@@ -3,7 +3,10 @@
         "pages/index/index"
     ],
     "window": {
-        "navigationStyle": "custom"
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "测试环境",
+        "navigationBarTextStyle": "white"
     },
     "sitemapLocation": "sitemap.json"
 }
